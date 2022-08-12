@@ -1,1 +1,3 @@
-web: gunicorn projdassapp.wsgi
+web: gunicorn projdassapp.wsgi --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
