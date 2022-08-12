@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f)gpt2y+9$+5(^0@rz(r%$9%(&91cl5!a+=%er@3@q^rg*2bk!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost','dass-api.herokuapp.com']
 
 
 # Application definition
