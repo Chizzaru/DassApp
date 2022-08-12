@@ -1,1 +1,1 @@
-web: gunicorn dass-app.wsgi
+web: gunicorn projdassapp.wsgi
